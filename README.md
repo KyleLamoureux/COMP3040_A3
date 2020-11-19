@@ -1,7 +1,7 @@
 # UofMInfo API
 
 ## Description
-UofMInfo is a tool to find out detailed information about courses and professors at the University of Manitoba. The purpose of this API is to convenience students when they are looking for courses.  
+UofMInfo is a tool to find out detailed information about courses and professors at the University of Manitoba. The purpose of this API is to aid students when it comes time to select courses for the upcoming terms.  
 
 With the UofMInfo API, you can:  
 - Get specific course information include syllabus, quality, etc.
@@ -72,5 +72,12 @@ Get the professor's information by providing the professor's name.
   "hours": "T1300",
   "rateMyProfRating": "3.6",
   "rateMyProfReview": "link"
+  "reviews" : [
+    {
+      "difficulty rating": 3,
+      "comment": "...",
+      "tags" : [...]
+    }
+  ]
 }
 ```
