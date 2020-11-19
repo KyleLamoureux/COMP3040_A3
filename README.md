@@ -9,11 +9,15 @@ Supplies information on a given course.
 #### Parameters
 - code(string): Standard UofM course code. Required
 - term(string): Specific class term of interest. Optional
+| Parameter   |  Type  | Required |        Description            |
+|-------------|--------|----------|-------------------------------|
+| `code`      | string | YES      | Standard UofM course code     |
+| `term`      | string | NO       | Specific class term of interest |
 
 `https://UofMInfo/api/courseInfo?code=COMP3040&timeSlots=winter`
 
 Result is formatted as a JSON. Here's an example:
-```JSON
+``` json
 {
   "results":
   {
@@ -37,14 +41,17 @@ Result is formatted as a JSON. Here's an example:
 ### get_prof_info
 Supplies additional information on a specific professor.
 #### Parameters
-- profName(string): Name of a UofM Professor. Required
-- reviews(boolean): Review data pulled from rate my prof. Optional
+| Parameter   |  Type  | Required |        Description            |
+|-------------|--------|----------|-------------------------------|
+| `profName`| string | YES      |  Name of a UofM Professor    |
+| `reviews`    |   boolean  | NO      | Review data pulled from rate my prof           |
+
 
 `https://UofMInfo/api/profInfo?profName=JohnSmith&reviews=true`
 
 Result is formatted as JSON. Here's an example:
 
-```JSON
+``` json
 {
   "firstName": "John",
   "lastName": "Smith",
