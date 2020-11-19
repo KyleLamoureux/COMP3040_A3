@@ -13,6 +13,21 @@ Supply detailed information about courses and professors at the U of M.
 - Professor name
 - reviews
 
+```JSON
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 27,
+  "courses": {
+    "course1": "COMP2130",
+    "course2": "COMP3040",
+  },
+  "email": "jsmith@umanitoba.ca",
+  "office": "114 Allen",
+  "hours": "T1300"
+  "rateMyProfRating" : "3.6"
+}
+```
 
 ## Sample Request
 
