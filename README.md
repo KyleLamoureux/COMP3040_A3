@@ -5,7 +5,7 @@ Supply detailed information about courses and professors at the U of M.
 
 ## Endpoints
 ### get_course_info
-Supplies information on a given course. Returns a link to the syllabus, the course quality, difficulty rating, terms the course is offered in, and an optional parameter for what times the course is offered for a given term.
+Supplies information on a given course.
 #### Parameters
 - code(string): Standard UofM course code. Required
 - term(string): Specific class term of interest. Optional
@@ -35,7 +35,7 @@ Result is formatted as a JSON. Here's an example:
 
 
 ### get_prof_info
-
+Supplies additional information on a specific professor.
 #### Parameters
 - profName(string): Name of a UofM Professor. Required
 - reviews(boolean): Review data pulled from rate my prof. Optional
