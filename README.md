@@ -9,6 +9,27 @@ Supply detailed information about courses and professors at the U of M.
 - Course name/code. Ex: COMP3040
 - specific_time_slots
 
+
+```JSON
+{
+  "results": 
+  {
+    "courseName":"COMP3040",
+    "syllabus":"link",
+    "courseQuality":"4.5",
+    "difficultyRating":"3.2",
+    "termsOffered":[
+      "Winter",
+      "Fall"
+    ],
+    "termTimes":[
+      "time1 MWF",
+      "time2 TR"
+    ]
+}
+```
+
+
 `get_prof_info` -> return courses teach/taught, course diffculty, optional (reviews)
 - Professor name
 - reviews
