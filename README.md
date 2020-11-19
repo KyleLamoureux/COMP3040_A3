@@ -12,7 +12,7 @@ With the UofMInfo API, you can:
 - As is standard in URLs, parameters should be separated by "&"
 
 ## Endpoints
-### get_course_info
+### courseInfo
 Get detailed course information by providing the course code and which term.
 ##### Parameters
 | Parameter   |  Type  | Required |        Description            |
@@ -45,7 +45,7 @@ Get detailed course information by providing the course code and which term.
 
 
 
-### get_prof_info
+### profInfo
 Get the professor's information by providing the professor's name.
 ##### Parameters
 | Parameter   |  Type  | Required |        Description            |
@@ -71,13 +71,13 @@ Get the professor's information by providing the professor's name.
   "office": "114 Allen",
   "hours": "T1300",
   "rateMyProfRating": "3.6",
-  "rateMyProfReview": "link"
+  "rateMyProfReview": "link",
   "reviews" : [
     {
       "difficulty rating": 3,
       "comment": "...",
-      "tags" : [...]
-    }
+      "tags" : [""]
+    },
   ]
 }
 ```
