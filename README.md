@@ -6,8 +6,10 @@ Supply detailed information about courses and professors at the U of M.
 ## Endpoints
 2 endpoint something like  
 `get_course_info` -> returns syllabus, course quality rating, difficulty rating, the terms it is offered(with modification)
-- Course name/code. Ex: COMP3040
-- specific_time_slots
+
+### Parameters
+- code(string): Standard UofM course code. Required
+- term(string): Specific class term of interest. Optional
 
 
 ```JSON
@@ -31,8 +33,10 @@ Supply detailed information about courses and professors at the U of M.
 
 
 `get_prof_info` -> return courses teach/taught, course diffculty, optional (reviews)
-- Professor name
-- reviews
+
+### Parameters
+- profName(string): Name of a UofM Professor. Required
+- reviews(boolean): Review data pulled from rate my prof. Optional
 
 ```JSON
 {
