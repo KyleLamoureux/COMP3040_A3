@@ -7,12 +7,10 @@ Supply detailed information about courses and professors at the U of M.
 ### get_course_info
 Supplies information on a given course.
 #### Parameters
-- code(string): Standard UofM course code. Required
-- term(string): Specific class term of interest. Optional
 | Parameter   |  Type  | Required |        Description            |
 |-------------|--------|----------|-------------------------------|
-| `code`      | string | YES      | Standard UofM course code     |
-| `term`      | string | NO       | Specific class term of interest |
+| `code`| string | YES      |  Standard UofM course code    |
+| `term`    |   string  | NO      | Specific class term of interest           |
 
 `https://UofMInfo/api/courseInfo?code=COMP3040&timeSlots=winter`
 
