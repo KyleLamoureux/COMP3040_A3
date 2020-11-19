@@ -13,7 +13,7 @@ With the UofMInfo API, you can:
 
 ## Endpoints
 ### courseInfo
-Get detailed course information by providing the course code and which term.
+Get detailed course information by providing the course code.
 ##### Parameters
 | Parameter   |  Type  | Required |        Description            |
 |-------------|--------|----------|-------------------------------|
