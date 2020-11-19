@@ -9,7 +9,7 @@ Supply detailed information about courses and professors at the U of M.
 - Course name/code. Ex: COMP3040
 - specific_time_slots
 
-`get_prof_info` - return courses teach/taught, course diffculty, optional (reviews)
+`get_prof_info` -> return courses teach/taught, course diffculty, optional (reviews)
 - Professor name
 - reviews
 
