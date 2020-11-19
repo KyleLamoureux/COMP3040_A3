@@ -10,7 +10,7 @@ Supply detailed information about courses and professors at the U of M.
 - code(string): Standard UofM course code. Required
 - term(string): Specific class term of interest. Optional
 
-
+Result is formatted as a JSON. Here's an example:
 ```JSON
 {
   "results":
