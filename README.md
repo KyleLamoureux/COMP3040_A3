@@ -1,8 +1,7 @@
 # 
 
 ## Description
-Supply detailed information to help a university student determine if they should take a specific class.
-- syllabus 
+Supply detailed information about courses and professors at the U of M.
 
 ## Endpoints
 2 endpoint something like  
