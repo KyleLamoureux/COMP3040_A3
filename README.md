@@ -10,6 +10,8 @@ Supplies information on a given course. Returns a link to the syllabus, the cour
 - code(string): Standard UofM course code. Required
 - term(string): Specific class term of interest. Optional
 
+`https://UofMInfo/api/courseInfo?code=COMP3040&timeSlots=winter`
+
 Result is formatted as a JSON. Here's an example:
 ```JSON
 {
@@ -38,6 +40,10 @@ Result is formatted as a JSON. Here's an example:
 - profName(string): Name of a UofM Professor. Required
 - reviews(boolean): Review data pulled from rate my prof. Optional
 
+`https://UofMInfo/api/profInfo?profName=JohnSmith&reviews=true`
+
+Result is formatted as JSON. Here's an example:
+
 ```JSON
 {
   "firstName": "John",
@@ -50,7 +56,8 @@ Result is formatted as a JSON. Here's an example:
   "email": "jsmith@umanitoba.ca",
   "office": "114 Allen",
   "hours": "T1300",
-  "rateMyProfRating": "3.6"
+  "rateMyProfRating": "3.6",
+  "rateMyProfReview": "link"
 }
 ```
 
