@@ -3,11 +3,10 @@
 ## Description
 Supply detailed information about courses and professors at the U of M.
 
-## Endpoints
-2 endpoint something like  
-`get_course_info` -> returns syllabus, course quality rating, difficulty rating, the terms it is offered(with modification)
+## Endpoints 
+#### get_course_info
 
-### Parameters
+#### Parameters
 - code(string): Standard UofM course code. Required
 - term(string): Specific class term of interest. Optional
 
@@ -32,9 +31,10 @@ Supply detailed information about courses and professors at the U of M.
 ```
 
 
-`get_prof_info` -> return courses teach/taught, course diffculty, optional (reviews)
 
-### Parameters
+#### get_prof_info
+
+#### Parameters
 - profName(string): Name of a UofM Professor. Required
 - reviews(boolean): Review data pulled from rate my prof. Optional
 
