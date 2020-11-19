@@ -1,9 +1,9 @@
-# 
+# UofMInfo API
 
 ## Description
 Supply detailed information about courses and professors at the U of M.
 
-## Endpoints 
+## Endpoints
 #### get_course_info
 
 #### Parameters
@@ -13,7 +13,7 @@ Supply detailed information about courses and professors at the U of M.
 
 ```JSON
 {
-  "results": 
+  "results":
   {
     "courseName":"COMP3040",
     "syllabus":"link",
@@ -55,4 +55,3 @@ Supply detailed information about courses and professors at the U of M.
 ```
 
 ## Sample Request
-
