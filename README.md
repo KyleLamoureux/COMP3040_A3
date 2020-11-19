@@ -12,7 +12,7 @@ Supplies information on a given course.
 | `code`| string | YES      |  Standard UofM course code    |
 | `termTimes`    |   string  | NO      | Specific class term of interest           |
 
-`https://UofMInfo/api/courseInfo?code=COMP3040&termTimes=winter`
+`https://UofMInfo/api/get_course_info?code=COMP3040&termTimes=winter`
 
 Result is formatted as a JSON. Here's an example:
 ``` json
@@ -45,7 +45,7 @@ Supplies additional information on a specific professor.
 | `reviews`    |   boolean  | NO      | Review data pulled from rate my prof           |
 
 
-`https://UofMInfo/api/profInfo?profName=JohnSmith&reviews=true`
+`https://UofMInfo/api/get_prof_info?profName=JohnSmith&reviews=true`
 
 Result is formatted as JSON. Here's an example:
 
@@ -65,5 +65,3 @@ Result is formatted as JSON. Here's an example:
   "rateMyProfReview": "link"
 }
 ```
-
-## Sample Request
