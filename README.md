@@ -2,8 +2,7 @@
 
 ## Description
 Supply detailed information to help a university student determine if they should take a specific class.
-- syllabus
-- 
+- syllabus 
 
 ## Endpoints
 2 endpoint something like  
