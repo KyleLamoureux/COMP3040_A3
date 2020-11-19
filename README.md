@@ -15,8 +15,6 @@ Supply detailed information to help a university student determine if they shoul
 - Professor name
 - reviews
 
-## Resources
-
 
 ## Sample Request
 
