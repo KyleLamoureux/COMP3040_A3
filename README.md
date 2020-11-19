@@ -10,9 +10,9 @@ Supplies information on a given course.
 | Parameter   |  Type  | Required |        Description            |
 |-------------|--------|----------|-------------------------------|
 | `code`| string | YES      |  Standard UofM course code    |
-| `term`    |   string  | NO      | Specific class term of interest           |
+| `termTimes`    |   string  | NO      | Specific class term of interest           |
 
-`https://UofMInfo/api/courseInfo?code=COMP3040&timeTimes=winter`
+`https://UofMInfo/api/courseInfo?code=COMP3040&termTimes=winter`
 
 Result is formatted as a JSON. Here's an example:
 ``` json
