@@ -1,20 +1,29 @@
 # UofMInfo API
 
 ## Description
-UofMInfo is a tool to find out detailed information about courses and professors at the University of Manitoba. The purpose of this API is to convenience students when they are looking for courses.
+UofMInfo is a tool to find out detailed information about courses and professors at the University of Manitoba. The purpose of this API is to convenience students when they are looking for courses.  
+
+With the UofMInfo API, you can:  
+- Get specific course information include syllabus, quality, etc.
+- Search for a professor, and get the professor's information and rating.
+
+## Before you start
+- UofMInfo API is a REST API, which means it uses the `GET` request
+- As is standard in URLs, parameters should be separated by "&"
 
 ## Endpoints
 ### get_course_info
-Supplies information on a given course.
-#### Parameters
+Get detailed course information by providing the course code and which term.
+##### Parameters
 | Parameter   |  Type  | Required |        Description            |
 |-------------|--------|----------|-------------------------------|
 | `code`| string | YES      |  Standard UofM course code    |
 | `termTimes`    |   string  | NO      | Specific class term of interest           |
 
-`https://UofMInfo/api/get_course_info?code=COMP3040&termTimes=winter`
+##### Sample request
+`https://UofMInfo/api/courseInfo?code=COMP3040&termTimes=winter`
 
-Result is formatted as a JSON. Here's an example:
+##### Sample response
 ``` json
 {
   "results":
@@ -37,17 +46,17 @@ Result is formatted as a JSON. Here's an example:
 
 
 ### get_prof_info
-Supplies additional information on a specific professor.
-#### Parameters
+Get the professor's information by providing the professor's name.
+##### Parameters
 | Parameter   |  Type  | Required |        Description            |
 |-------------|--------|----------|-------------------------------|
 | `profName`| string | YES      |  Name of a UofM Professor    |
 | `reviews`    |   boolean  | NO      | Review data pulled from rate my prof           |
 
+##### Sample request
+`https://UofMInfo/api/profInfo?profName=JohnSmith&reviews=true`
 
-`https://UofMInfo/api/get_prof_info?profName=JohnSmith&reviews=true`
-
-Result is formatted as JSON. Here's an example:
+##### Sample response
 
 ``` json
 {
