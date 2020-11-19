@@ -1,7 +1,7 @@
 # UofMInfo API
 
 ## Description
-Supply detailed information about courses and professors at the U of M.
+UofMInfo is a tool to find out detailed information about courses and professors at the University of Manitoba. The purpose of this API is to convenience students when they are registering for courses.
 
 ## Endpoints
 ### get_course_info
@@ -12,7 +12,7 @@ Supplies information on a given course.
 | `code`| string | YES      |  Standard UofM course code    |
 | `term`    |   string  | NO      | Specific class term of interest           |
 
-`https://UofMInfo/api/courseInfo?code=COMP3040&timeSlots=winter`
+`https://UofMInfo/api/courseInfo?code=COMP3040&timeTimes=winter`
 
 Result is formatted as a JSON. Here's an example:
 ``` json
