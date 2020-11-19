@@ -25,7 +25,7 @@ Supply detailed information about courses and professors at the U of M.
   "email": "jsmith@umanitoba.ca",
   "office": "114 Allen",
   "hours": "T1300"
-  "rateMyProfRating" : "3.6"
+  "rateMyProfRating": "3.6"
 }
 ```
 
