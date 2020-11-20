@@ -21,7 +21,7 @@ Get detailed course information by providing the course code.
 | `termTimes`    |   string  | NO      | Specific class term of interest           |
 
 ##### Sample request
-`https://UofMInfo/api/courseInfo?code=COMP3040&termTimes=winter`
+`https://UofMInfo.org/api/courseInfo?code=COMP3040&termTimes=winter`
 
 ##### Sample response
 ``` json
@@ -54,7 +54,7 @@ Get the professor's information by providing the professor's name.
 | `reviews`    |   boolean  | NO      | Review data pulled from rate my prof           |
 
 ##### Sample request
-`https://UofMInfo/api/profInfo?profName=JohnSmith&reviews=true`
+`https://UofMInfo.org/api/profInfo?profName=JohnSmith&reviews=true`
 
 ##### Sample response
 
