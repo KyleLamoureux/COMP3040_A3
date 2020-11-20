@@ -28,15 +28,15 @@ Get detailed course information by providing the course code.
 {
   "response": 200,
   "results": {
-    "courseName":"COMP3040",
-    "syllabus":"link",
-    "courseQuality":"4.5",
-    "difficultyRating":"3.2",
-    "termsOffered":[
+    "courseName": "COMP3040",
+    "syllabus": "link",
+    "courseQuality": 4.5,
+    "difficultyRating": 3.2,
+    "termsOffered": [
       "Winter",
       "Fall"
     ],
-    "termTimes":[
+    "termTimes": [
       "time1 MWF",
       "time2 TR"
     ]
@@ -73,7 +73,7 @@ Get the professor's information by providing the professor's name.
     "email": "jsmith@umanitoba.ca",
     "office": "114 Allen",
     "hours": "T1300",
-    "rateMyProfRating": "3.6",
+    "rateMyProfRating": 3.6,
     "rateMyProfReview": "link",
     "reviews" : [
       {
