@@ -40,6 +40,7 @@ Get detailed course information by providing the course code.
       "time1 MWF",
       "time2 TR"
     ]
+  }
 }
 ```
 
