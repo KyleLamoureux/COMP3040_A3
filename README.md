@@ -26,8 +26,8 @@ Get detailed course information by providing the course code.
 ##### Sample response
 ``` json
 {
-  "results":
-  {
+  "response": 200,
+  "results": {
     "courseName":"COMP3040",
     "syllabus":"link",
     "courseQuality":"4.5",
@@ -61,24 +61,27 @@ Get the professor's information by providing the professor's name.
 
 ``` json
 {
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 27,
-  "courses": {
-    "course1": "COMP2130",
-    "course2": "COMP3040",
-  },
-  "email": "jsmith@umanitoba.ca",
-  "office": "114 Allen",
-  "hours": "T1300",
-  "rateMyProfRating": "3.6",
-  "rateMyProfReview": "link",
-  "reviews" : [
-    {
-      "difficulty rating": 3,
-      "comment": "...",
-      "tags" : [""]
+  "response" : 200,
+  "result" : {
+    "firstName": "John",
+    "lastName": "Smith",
+    "age": 27,
+    "courses": {
+      "course1": "COMP2130",
+      "course2": "COMP3040",
     },
-  ]
+    "email": "jsmith@umanitoba.ca",
+    "office": "114 Allen",
+    "hours": "T1300",
+    "rateMyProfRating": "3.6",
+    "rateMyProfReview": "link",
+    "reviews" : [
+      {
+        "difficulty rating": 3,
+        "comment": "...",
+        "tags" : [""]
+      },
+    ]
+  }
 }
 ```
