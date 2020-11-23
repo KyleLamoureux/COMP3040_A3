@@ -66,10 +66,10 @@ Get the professor's information by providing the professor's name, and an additi
     "firstName": "John",
     "lastName": "Smith",
     "age": 27,
-    "courses": {
+    "courses": [
       "course1": "COMP2130",
       "course2": "COMP3040",
-    },
+    ],
     "email": "jsmith@umanitoba.ca",
     "office": "114 Allen",
     "hours": "T1300",
