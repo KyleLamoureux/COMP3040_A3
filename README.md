@@ -67,8 +67,8 @@ Get the professor's information by providing the professor's name, and an additi
     "lastName": "Smith",
     "age": 27,
     "courses": [
-      "course1": "COMP2130",
-      "course2": "COMP3040",
+      "COMP2130",
+      "COMP3040",
     ],
     "email": "jsmith@umanitoba.ca",
     "office": "114 Allen",
